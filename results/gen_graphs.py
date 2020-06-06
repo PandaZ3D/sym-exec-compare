@@ -83,7 +83,7 @@ def graph_data(fname):
 
 if __name__ == '__main__':
     # iterate through all logic bombs
-    TOOLS = ['angr']#, 'mcore']
+    TOOLS = ['mcore']#, 'mcore']
     LOGIC_BOMBS = ['2thread_pp_l1','df2cf_cp_l1','float5_fp_l2','pid_csv','stack_bo_l1','2thread_pp_l2','echo_cp_l1',
             'forkpipe_pp_l1','ping_csv','stack_bo_l2','5n+1_lo_l1','echofile_cp_l1','forkshm_pp_l1','pointers_sj_l1',
             'stack_cp_l1','7n+1_lo_l1','file_cp_l1','heap_bo_l1','pow_ef_l2','stackarray_sm_l1','addint_to_l1',
