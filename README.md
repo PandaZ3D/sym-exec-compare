@@ -40,3 +40,8 @@ To get a version of the scripts that have benchmarks for manticore, checkout the
 git fetch origin pull/14/head
 git checkout -b pullrequest FETCH_HEAD
 ```
+
+# Experiment
+# Results
+Data is graphed using the altair in python, follow the docs for installation instructions. To save images you would need altiar_save, link to the installation instructions here.
+
